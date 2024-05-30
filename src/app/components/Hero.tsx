@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="h-[100vh] md:h-auto">
       <div className="pb-0 pt-20  md:pt-32 container bg-black-100 ">
         <div>
           <Spotlight

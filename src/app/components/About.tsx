@@ -2,7 +2,7 @@ import { ContainerScroll } from "./ui/container-scroll-animation";
 
 const About = () => {
   return (
-    <section className="h-[80vh] md:h-auto" id="about">
+    <section className="h-[110vh] md:h-auto" id="about">
       <div className="flex flex-col h-full w-full justify-center overflow-hidden">
         <ContainerScroll
           titleComponent={
