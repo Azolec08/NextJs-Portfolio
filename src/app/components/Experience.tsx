@@ -8,7 +8,7 @@ import { MacbookScroll } from "./ui/mcbook-scroll";
 export function Experience() {
   return (
     <section id="experience">
-      <div className="overflow-hidden  dark:bg-black-100 rounded-xl bg-white w-full md:h-[100vh] lg:h-auto">
+      <div className="overflow-hidden  dark:bg-black-100 rounded-xl bg-white w-full h-auto md:h-[100vh] lg:h-auto">
         <MacbookScroll
           title={<span>My Work Experience</span>}
           src={`/linear.webp`}

@@ -69,7 +69,7 @@ export const ContactForm: React.FC = () => {
   return (
     <section
       id="contacts"
-      className=" py-10 w-full min-h-[80vh] md:min-h-[120vh] lg:min-h-[150vh] flex items-center"
+      className=" py-10 w-full min-h-[50vh] md:min-h-[60vh] lg:min-h-[150vh] flex items-center"
     >
       <div className="flex h-full flex-col justify-center items-center w-full ">
         <h2 className="text-2xl font-semibold py-6">Contact me</h2>
