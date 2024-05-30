@@ -3,16 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
 import { socialMedia } from "../constants";
-import { IconTypes } from "../types";
 import MagicButton from "./ui/MagicButton";
-
-type IconProps = {
-  info: IconTypes[];
-};
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 min-h-screen">
+    <footer className="w-full py-10 md:py-0  h-[85vh] md:h-[60vh] lg:min-h-screen container flex flex-col justify-center">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <Image
@@ -41,7 +36,7 @@ const Footer = () => {
           />
         </Link>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between px-8 items-center">
+      <div className="flex mt-16 md:flex-row flex-col gap-y-5 justify-between px-8 items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Mark Celoza
         </p>
