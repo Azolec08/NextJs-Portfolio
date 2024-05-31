@@ -48,6 +48,7 @@ export const ContactForm: React.FC = () => {
 
     if (useRef1.current) {
       useRef1.current.value = "";
+      useRef1.current.focus();
     }
     if (useRef2.current) {
       useRef2.current.value = "";
