@@ -1,3 +1,4 @@
+"use client";
 import Grid from "./components/About";
 import { ContactForm } from "./components/ContactForm";
 import { Experience } from "./components/Experience";
@@ -9,16 +10,19 @@ import { navItems } from "./constants";
 
 export default function Home() {
   return (
-    <main className="flex relative bg-black-100 items-center justify-center flex-col overflow-hidden  mx-auto ">
-      <div className="w-full">
+    <>
+      <main className="flex relative flex-col bg-black-100  overflow-hidden mx-auto">
         <FloatingNav navItems={navItems} />
-        <Hero />
-        <Grid />
-        <Experience />
-        <Projects />
-        <ContactForm />
+        <div className="w-full">
+          <FloatingNav navItems={navItems} />
+          <Hero />
+          <Grid />
+          <Experience />
+          <Projects />
+          <ContactForm />
+        </div>
         <Footer />
-      </div>
-    </main>
+      </main>
+    </>
   );
 }
