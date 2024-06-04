@@ -1,10 +1,18 @@
-import Link from "next/link";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/mark-resume.pdf";
+    link.download = "mark-resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="h-[100vh] md:h-auto">
       <div className="pb-0 pt-20  md:pt-32 container bg-black-100 ">
@@ -50,14 +58,15 @@ const Hero = () => {
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               Hi! I&apos;m Mark, Your Frontend Developer.
             </p>
-            <Link href="https://github.com/Azolec08" target="_blank">
+            <div className="flex flex-col md:flex-row gap-4">
               <MagicButton
-                title="Show my github"
-                icon={<FaLocationArrow />}
+                title="Download Resume"
+                icon={<FaDownload className="animate-bounce" />}
                 position="right"
-                buttonClass="w-full md:w-60 md:mt-10 "
+                buttonClass="w-full md:w-60 md:mt-10"
+                handleClick={handleDownload}
               />
-            </Link>
+            </div>
           </div>
         </div>
       </div>

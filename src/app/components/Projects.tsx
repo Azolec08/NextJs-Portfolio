@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex items-center min-h-[100vh] md:h-[120vh]  lg:h-[200vh] container "
+      className="flex p-6 md:py-10 lg:py-14 items-center justify-center min-h-[100vh] md:min-h-[120vh] lg:min-h-[200vh] container"
     >
       <div>
         <TextGenerateEffect

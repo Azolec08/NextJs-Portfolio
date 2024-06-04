@@ -7,7 +7,7 @@ import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-10 md:py-0  h-[85vh] md:h-[45vh] lg:min-h-screen container flex flex-col justify-center">
+    <footer className="w-full py-10 md:py-0  h-[85vh] md:h-[70vh] lg:min-h-screen container flex flex-col items-center justify-center">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <Image
