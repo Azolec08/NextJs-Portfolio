@@ -74,7 +74,9 @@ export function About() {
       <span className="py-10 w-full font-semibold text-lg md:text-3xl flex justify-center">
         About Me
       </span>
-      <StickyScroll content={content} />
+      <div>
+        <StickyScroll content={content} />
+      </div>
     </section>
   );
 }
