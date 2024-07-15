@@ -38,6 +38,8 @@ const Skils = () => {
               <li>NodeJs</li>
               <li>ExpressJs</li>
               <li>MongoDb</li>
+              <li>Docker</li>
+              <li>Mysql</li>
             </ul>
           </div>
         </ContainerScroll>
