@@ -7,7 +7,7 @@ import { MacbookScroll } from "./ui/mcbook-scroll";
 
 export function Experience() {
   return (
-    <section id="experience">
+    <section id="experience ">
       <div className="overflow-hidden  dark:bg-black-100 rounded-xl bg-white w-full h-auto md:h-[100vh] lg:h-auto">
         <MacbookScroll
           title={<span>My Work Experience</span>}
@@ -15,7 +15,7 @@ export function Experience() {
           showGradient={false}
         />
       </div>
-      <div className="flex flex-col lg:flex-row items-center  ">
+      <div className="flex w-full container flex-col lg:flex-row items-center px-0  ">
         <CardContainer className="inter-var p-4 lg:p-2">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem

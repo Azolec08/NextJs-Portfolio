@@ -27,6 +27,7 @@ const Skils = () => {
               <li>JAVASCRIPT</li>
               <li>TYPESCRIPT</li>
               <li>ReactJs</li>
+              <li>Figma</li>
               <li>NextJs</li>
               <li>TailwindCss</li>
               <li>Zustand</li>

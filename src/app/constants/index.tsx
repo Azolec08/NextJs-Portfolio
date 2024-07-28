@@ -68,17 +68,10 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Anime Music Website",
-    description: "Anime Static Website Self Project",
-    href: "https://anime-web-2cfe1.firebaseapp.com",
-    img: "/anime.jpg",
-  },
-  {
-    id: 6,
-    title: "Admin NextJs Website",
-    description: "Admin Website Self Project",
-    href: "https://next-admin-dun.vercel.app",
-    img: "/next-admin.jpg",
+    title: "MERNSTACK Crud App",
+    description: "MySql Database Crud App",
+    href: "https://todo-list-fullstack-mysql.vercel.app/",
+    img: "/crud_app.png",
   },
 ];
 
