@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "MERNSTACK Crud App",
+    title: "FullStack Mern Crud App",
     description: "MySql Database Crud App",
     href: "https://todo-list-fullstack-mysql.vercel.app/",
     img: "/crud_app.png",
