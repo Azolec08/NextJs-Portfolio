@@ -56,7 +56,7 @@ export const projects = [
     id: 3,
     title: "Shopping Website",
     description: "Nike static Website Self Project",
-    href: "https://nikewebsite-a2e83.firebaseapp.com",
+    href: "https://nike-website-amber.vercel.app/",
     img: "/nike.jpg",
   },
   {
