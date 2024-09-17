@@ -68,10 +68,10 @@ export const projects = [
   },
   {
     id: 5,
-    title: "FullStack Mern Crud App",
-    description: "MySql Database Crud App",
-    href: "https://todo-list-fullstack-mysql.vercel.app/",
-    img: "/crud_app.png",
+    title: "Simple Account Application",
+    description: "Built in ReactJs + MUI",
+    href: "https://mui-simple-account.vercel.app/",
+    img: "/mui.png",
   },
 ];
 
