@@ -41,6 +41,7 @@ const Skils = () => {
               <li>MongoDb</li>
               <li>Docker</li>
               <li>Mysql</li>
+              <li>MUI Material Ui</li>
             </ul>
           </div>
         </ContainerScroll>
