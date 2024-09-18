@@ -6,8 +6,8 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/mark-resume.pdf";
-    link.download = "mark-resume.pdf";
+    link.href = "/Celoza_Mark_Angelo_Updated_Resume3.pdf";
+    link.download = "Celoza_Mark_Angelo_Updated_Resume3.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
