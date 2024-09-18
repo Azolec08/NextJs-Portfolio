@@ -73,6 +73,13 @@ export const projects = [
     href: "https://mui-simple-account.vercel.app/",
     img: "/mui.png",
   },
+  {
+    id: 6,
+    title: "Anime Website",
+    description: "ReactJs + TypeScript + Sass",
+    href: "https://anime-website-ashen.vercel.app/",
+    img: "/anime_web.png",
+  },
 ];
 
 export const socialMedia: IconTypes[] = [
