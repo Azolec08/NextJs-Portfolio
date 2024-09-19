@@ -80,6 +80,13 @@ export const projects = [
     href: "https://anime-website-ashen.vercel.app/",
     img: "/anime_web.png",
   },
+  {
+    id: 7,
+    title: "Dashboard",
+    description: "NextJs + ReactJs  + TailwindCss + MongoDb + Nodejs",
+    href: "https://next-admin-lilac.vercel.app/",
+    img: "/admin.png",
+  },
 ];
 
 export const socialMedia: IconTypes[] = [
