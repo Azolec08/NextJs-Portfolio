@@ -87,6 +87,13 @@ export const projects = [
     href: "https://next-admin-lilac.vercel.app/",
     img: "/admin.png",
   },
+  {
+    id: 7,
+    title: "Movie App",
+    description: "ReactJS + Material Ui",
+    href: "https://movie-app-three-fawn.vercel.app",
+    img: "/movie.png",
+  },
 ];
 
 export const socialMedia: IconTypes[] = [

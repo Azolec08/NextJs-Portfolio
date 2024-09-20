@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-[2600px] md:min-h-[1500px] lg:min-h-[1200px]  container"
+      className="min-h-[3000px] md:min-h-[1800px] lg:min-h-[1400px]  container"
     >
       <div className="h-full w-full flex flex-col items-center justify-center">
         <TextGenerateEffect
