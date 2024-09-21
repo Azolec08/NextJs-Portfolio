@@ -88,11 +88,18 @@ export const projects = [
     img: "/admin.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Movie App",
     description: "ReactJS + Material Ui",
     href: "https://movie-app-three-fawn.vercel.app",
     img: "/movie.png",
+  },
+  {
+    id: 9,
+    title: "Fashion and Hub Ecomerse",
+    description: "NextJs/ReactJs + TypeScript + ShadcnUI + AceternityUi",
+    href: "https://fashion-and-hub.vercel.app/",
+    img: "/fashionhub.png",
   },
 ];
 
