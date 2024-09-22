@@ -108,6 +108,13 @@ export const projects = [
     href: "https://nike-landing-page-rouge-pi.vercel.app/",
     img: "/nike_landing.png",
   },
+  {
+    id: 11,
+    title: "Car Shop",
+    description: "NextJs/ReactJs  + TailwindCss + TypeScript",
+    href: "https://car-shop-iota.vercel.app/",
+    img: "cars.png",
+  },
 ];
 
 export const socialMedia: IconTypes[] = [
