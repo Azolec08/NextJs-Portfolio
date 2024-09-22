@@ -101,6 +101,13 @@ export const projects = [
     href: "https://fashion-and-hub.vercel.app/",
     img: "/fashionhub.png",
   },
+  {
+    id: 10,
+    title: "Nike",
+    description: "React Vite + TailwindCss",
+    href: "https://nike-landing-page-rouge-pi.vercel.app/",
+    img: "/nike_landing.png",
+  },
 ];
 
 export const socialMedia: IconTypes[] = [
