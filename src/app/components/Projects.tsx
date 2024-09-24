@@ -35,7 +35,7 @@ const Projects = () => {
                         {data.description}
                       </span>
                     </div>
-                    <div className="flex relative flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
+                    <div className="flex relative flex-1 w-full rounded-lg mt-5 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
                       <Image src={data.img} alt="project image" fill />
                     </div>
                   </div>
