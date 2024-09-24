@@ -113,7 +113,7 @@ export const projects = [
     title: "Car Shop",
     description: "NextJs/ReactJs  + TailwindCss + TypeScript",
     href: "https://car-shop-iota.vercel.app/",
-    img: "cars.png",
+    img: "/cars.png",
   },
 ];
 
